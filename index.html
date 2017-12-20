@@ -14,7 +14,7 @@
 	<!-- Ionicons -->
 	<link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
 	<!-- Theme style -->
-	<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+	<link rel="stylesheet" href="dist/css/AdminLTE.css">
 	<!-- AdminLTE Skins. 从css/skins文件夹中选择一个皮肤，而不是下载所有的皮肤来减轻负载. -->
 	<link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 	<!-- Morris chart -->
@@ -55,6 +55,11 @@
 				<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
 					<span class="sr-only">切换导航</span>
 				</a>
+				<div id="nav" class="pull-left">
+					<!--如果不想在顶部显示角标,则给ul加上disable-top-badge类即可-->
+					<ul class="nav nav-tabs nav-addtabs disable-top-badge" role="tablist">
+					</ul>
+				</div>
 				<div class="navbar-custom-menu">
 					<ul class="nav navbar-nav">
 						<!-- 消息: 样式在 dropdown.less-->
