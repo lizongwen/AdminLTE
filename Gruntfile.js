@@ -298,7 +298,6 @@ module.exports = function (grunt) { // jshint ignore:line
   grunt.loadNpmTasks('grunt-notify');
   // Replace
   grunt.loadNpmTasks('grunt-text-replace');
-
   // Linting task
   grunt.registerTask('lint', ['jshint', 'csslint', 'bootlint']);
   // JS task
